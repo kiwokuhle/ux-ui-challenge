@@ -1,0 +1,98 @@
+page-loginmodal {
+    .background{
+        background-image:linear-gradient(white, rgba(255, 255, 255, 0.801)), url('../../assets/imgs/1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+      
+      
+        } 
+    
+      
+    
+    .heading{
+        text-align: center;
+        position: relative;
+        top:10%;
+        font-family: system;
+        font-style: normal;
+    }
+    h1{
+        letter-spacing: 1px;
+        color: #358DF7;
+
+    }
+    .logincontainer{
+        position: relative;
+        left: 0 ;
+        display: block;
+        width: 120%;
+        height: 52% ;
+        top: 25%;
+        background-color: #358DF7;
+        margin-left: -6%;
+        margin-right:5px; 
+        color: white; 
+        font-family: system;
+        font-style: normal;
+        overflow: hidden;
+        overflow: visible;
+
+    }
+    .login{
+        padding: 1em;
+        width: 90%;
+    }
+    .ion-item{
+    border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+    color: white;  
+    position: relative;
+    height: 71px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: system;
+    font-style: normal;
+    
+    }
+    .button{
+        padding: 1em;
+        width: 88%;
+        margin: 0%;
+        margin-left: 10px;
+        position: relative;
+        bottom: -15px;
+        letter-spacing: 1px;
+        position: relative;
+        bottom: 5px;
+        font-family: system;
+        font-style: normal;
+        
+    }
+    .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating]
+    {
+       color: white; 
+    }
+    .item-input .label-md{
+       color: white; 
+    }
+      .signup{
+          align-items: center;
+          text-align: center;
+          padding: 20px;
+          letter-spacing: 1px;
+          position: relative;
+          bottom: 25px;
+          font-family: system;
+          font-style: normal;
+         }
+         .text-input-md{
+             color: white;
+         }
+         .bottom{
+             position: relative;
+             bottom: -15px;
+         }
+    
+
+
+}
