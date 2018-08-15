@@ -21,12 +21,8 @@ page-login {
             position: relative;
             left: 0 ;
             display: block;
-            width: 120%;
-            height: 52% ;
-            top: 25%;
+            width: 100%;
             background-color: #358DF7;
-            margin-left: -6%;
-            margin-right:5px; 
             color: white; 
             font-family: system;
             font-style: normal;
@@ -81,6 +77,13 @@ page-login {
             .item-input .label-md{
                 color: white;
             }
+            
+         ion-footer{
+           
+           
+            position: absolute;
+           
+         }
      
     }
     
