@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController,ViewController,ModalController,LoadingController } from 'ionic-angular';
+import { NavController,ViewController,LoadingController } from 'ionic-angular';
 import { LoginmodalPage } from '../loginmodal/loginmodal';
 
 @Component({
@@ -8,15 +8,14 @@ import { LoginmodalPage } from '../loginmodal/loginmodal';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController,public viewCtrl: ViewController, public modalCtrl:ModalController,public loadingCtrl:LoadingController ) {
+  constructor(public navCtrl: NavController,public viewCtrl: ViewController) {
 
   }
   dismiss=function(){
-    const modal = this.modalCtrl.create(LoginmodalPage);
-    modal.present();
-  }
+   this.navCtrl.push(LoginmodalPage);
   
 
   }
 
+}
 

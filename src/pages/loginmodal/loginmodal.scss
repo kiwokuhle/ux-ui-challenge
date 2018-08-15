@@ -25,12 +25,8 @@ page-loginmodal {
         position: relative;
         left: 0 ;
         display: block;
-        width: 120%;
-        height: 52% ;
-        top: 25%;
+        width: 100%;
         background-color: #358DF7;
-        margin-left: -6%;
-        margin-right:5px; 
         color: white; 
         font-family: system;
         font-style: normal;
@@ -40,7 +36,7 @@ page-loginmodal {
     }
     .login{
         padding: 1em;
-        width: 90%;
+        width: 100%;
     }
     .ion-item{
     border-color: rgba(0, 0, 0, 0);
@@ -56,7 +52,7 @@ page-loginmodal {
     }
     .button{
         padding: 1em;
-        width: 88%;
+        width: 96%;
         margin: 0%;
         margin-left: 10px;
         position: relative;
@@ -91,6 +87,12 @@ page-loginmodal {
          .bottom{
              position: relative;
              bottom: -15px;
+         }
+         ion-footer{
+           
+           
+            position: absolute;
+           
          }
     
 
